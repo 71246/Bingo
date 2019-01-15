@@ -2,10 +2,11 @@ package com.bingo2;
 
 public class BingoMain2 {
     public static void main(String[] args) {
-        int bingoLoops = 1000000;
+
+        int bingoLoops = 10000000;
 
         for (int z = 0; z < bingoLoops; z++) {
-            System.out.println(z);
+            //System.out.println(z);
             //Set the size of playing field
             final int gridSize = 5;
             final int numberRange = 75;
